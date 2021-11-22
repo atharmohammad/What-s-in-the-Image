@@ -1,7 +1,9 @@
-Flickr_Data
-descriptions_1.txt
-encoded_test_features.pkl
-encoded_train_features.pkl
-glove.6B.50d.txt
-model_weights.h5
-train_encoded_images.p
+backend/Flickr_Data
+backend/descriptions_1.txt
+backend/encoded_test_features.pkl
+backend/encoded_train_features.pkl
+backend/glove.6B.50d.txt
+backend/model_weights.h5
+backend/train_encoded_images.p
+*/node_modules
+*/package-lock.json

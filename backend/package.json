@@ -1,0 +1,28 @@
+{
+  "name": "image_captioning",
+  "version": "1.0.0",
+  "description": "predicts what is in the image and gives a suitable caption for it",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atharmohammad/What-s-in-the-Image.git"
+  },
+  "author": "Mohd Athar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/atharmohammad/What-s-in-the-Image/issues"
+  },
+  "homepage": "https://github.com/atharmohammad/What-s-in-the-Image#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
+}
