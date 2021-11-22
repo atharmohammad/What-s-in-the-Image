@@ -19,6 +19,10 @@ const createServer = ()=>{
         return res.status(200).send("Index Page")
     })
 
+    app.post('/api/predict',async(req,res)=>{
+        
+    })
+
     return app;
 }
 

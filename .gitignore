@@ -1,9 +1,0 @@
-backend/Flickr_Data
-backend/descriptions_1.txt
-backend/encoded_test_features.pkl
-backend/encoded_train_features.pkl
-backend/glove.6B.50d.txt
-backend/model_weights.h5
-backend/train_encoded_images.p
-*/node_modules
-*/package-lock.json
