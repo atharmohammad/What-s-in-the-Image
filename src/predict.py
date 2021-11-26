@@ -56,7 +56,7 @@ def encode_img(img):
     return feature_vector
 
 def predict_caption():
-    photo =  encode_img(directory + "/src/at.jpg").reshape((1,2048))
+    photo =  encode_img(directory + "/src/Images/" + sys.argv[1]).reshape((1,2048))
     in_text = 'startseq'
     for i in range(max_len):
         sequence = [word_to_idx[w] for w in in_text.split() if w in word_to_idx]
