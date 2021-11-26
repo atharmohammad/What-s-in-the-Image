@@ -4,14 +4,13 @@ encode the image
 feed it to predict function 
 return the caption
 """
-
 import numpy as np
 import pandas as pd
 from tensorflow.keras.applications.resnet50 import ResNet50 , preprocess_input
 from tensorflow.keras.preprocessing import image
 from tensorflow.keras.models import Model,load_model
 from tensorflow.keras.preprocessing.sequence import pad_sequences
-
+import sys
 import os
 directory = os.getcwd()
 max_len = 35
@@ -77,5 +76,3 @@ def predict_caption():
 
 caption =  predict_caption()
 print(caption)
-
-
